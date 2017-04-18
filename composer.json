@@ -1,0 +1,39 @@
+{
+	"name": "crackerjackdigital/silverstripe-testmode",
+	"type": "silverstripe-module",
+	"description": "Put site into 'test' mode using SQLite3 in-memory database if not Live",
+	"homepage": "http://github.com/crackerjackdigital",
+	"license": "BSD-3-Clause",
+	"keywords": [
+		"silverstripe"
+	],
+	"authors": [
+		{
+			"name": "Steve Wake",
+			"homepage": "https://github.com/wakes"
+		},
+		{
+			"name": "CrackerJack Digital",
+			"homepage": "http://www.crackerjack.net.nz/"
+		}
+	],
+	"require": {
+		"php": ">=5.6",
+		"composer/installers": "*",
+		"silverstripe/framework": "3.x"
+	},
+	"require-dev": { 
+		"phpunit/phpunit": "*",
+		"silverstripe/sqlite3": "*"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/CrackerjackDigital/silverstripe-testmode.git"
+		}
+	],
+	"extra": {
+		"installer-name": "testmode"
+	},
+	"minimum-stability": "dev"
+}
